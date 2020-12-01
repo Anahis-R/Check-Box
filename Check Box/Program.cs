@@ -16,7 +16,7 @@ namespace Check_Box
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PartesComputadora());
+            Application.Run(new NumeroInverso());
         }
     }
 }

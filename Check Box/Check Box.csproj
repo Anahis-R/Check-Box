@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NumeroInverso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NumeroInverso.Designer.cs">
+      <DependentUpon>NumeroInverso.cs</DependentUpon>
+    </Compile>
     <Compile Include="PartesComputadora.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="NumeroInverso.resx">
+      <DependentUpon>NumeroInverso.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PartesComputadora.resx">
       <DependentUpon>PartesComputadora.cs</DependentUpon>
     </EmbeddedResource>
